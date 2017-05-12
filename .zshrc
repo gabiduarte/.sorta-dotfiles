@@ -15,6 +15,6 @@ function work_solo {
 }
 
 function pair_with {
-	export GIT_COMMITER_NAME
-	export GIT_COMMITER_EMAIL
+	export GIT_COMMITER_NAME=$1
+	export GIT_COMMITER_EMAIL=$2
 }
